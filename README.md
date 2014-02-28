@@ -49,11 +49,15 @@ Parameters for adding a record are as follows:
 ---
 
 When submitting a record the `Submission Type` parameter has the following options:
- 
-  * A - Add record  
-  * U - Update a record  
-  * R - Renew a record  
-  * D - Delete a record
+
+---
+
+`A` - Add record  
+  `U` - Update a record  
+  `R` - Renew a record  
+  `D` - Delete a record
+
+---
 
 Basic example:
 
