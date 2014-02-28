@@ -53,9 +53,9 @@ When submitting a record the `Submission Type` parameter has the following optio
 ---
 
 `A` - Add record  
-  `U` - Update a record  
-  `R` - Renew a record  
-  `D` - Delete a record
+  `U` - Update record  
+  `R` - Renew record  
+  `D` - Delete record
 
 ---
 
@@ -121,6 +121,11 @@ Example response:
   ]
 }
 ```
+
+## Documentation
+
+The documentation for the InfoGroup API can be found by visiting the website below  
+  [http://sandbox.bulkupdate.infogroup.com/docs/api] http://sandbox.bulkupdate.infogroup.com/docs/api
 
 ## Dependencies
 
