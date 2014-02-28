@@ -1,7 +1,7 @@
 InfoGroup
 =========
 
-# About
+## About
 
 A simple Node.JS wrapper around the InfoGroup business directory API
 
