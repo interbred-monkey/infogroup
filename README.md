@@ -1,8 +1,6 @@
 InfoGroup
 =========
 
-## About
-
 A simple Node.JS wrapper around the InfoGroup business directory API
 
 ## Installation
@@ -50,24 +48,12 @@ Parameters for adding a record are as follows:
 
 ---
 
-Submission parameters are as follows:
-
----
-
-`Submission Type` - the type of submission 
+When submitting a record the `Submission Type` parameter has the following options:
+ 
   * A - Add record  
   * U - Update a record  
   * R - Renew a record  
-  * D - Delete a record  
-
-`Company Name`  
-  `Location Address`  
-  `Location City`  
-  `Location State`  
-  `Location Zip Code`  
-  `Location Phone`
-
----
+  * D - Delete a record
 
 Basic example:
 
@@ -132,7 +118,7 @@ Example response:
 }
 ```
 
-## Third-party libraries
+## Dependencies
 
 [request](http://github.com/mikeal/request.git)  
   [underscore](http://underscorejs.org)
