@@ -127,6 +127,8 @@ Example response:
 The documentation for the InfoGroup API can be found by visiting the website below  
   [http://sandbox.bulkupdate.infogroup.com/docs/api](http://sandbox.bulkupdate.infogroup.com/docs/api)
 
+Note: Not all fields are included in the InfoGroup documentation, there is a document in the documentation folder which contains a list of fields that are not included which was supplied by the nice people at InfoGroup.
+
 ## Dependencies
 
 [request](http://github.com/mikeal/request.git)  
