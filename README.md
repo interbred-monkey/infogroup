@@ -42,8 +42,6 @@ Parameters for adding a record are as follows:
 
 ---
 
-`name` - if writing records in batches a name for the batch (require if batch writing)  
-  `batch_id` - submits records to the same batch  
   `submissions` - one or more records to add to the database
 
 ---
