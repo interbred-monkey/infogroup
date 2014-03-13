@@ -165,6 +165,4 @@ InfoGroup.prototype.setTestMode = function(bool) {
   
 }
 
-module.exports = {
-  InfoGroup: InfoGroup
-}
+module.exports = InfoGroup;
