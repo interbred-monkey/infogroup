@@ -140,6 +140,7 @@ Returned statuses are as follows:
 
 ---
 
+
 InfoGroup also provide a list of processing errors when returning submissions, these are outlined in the following way:
 
 ---
@@ -165,6 +166,7 @@ InfoGroup also provide a list of processing errors when returning submissions, t
   ```
 
 ---
+
 
 If any submission cannot be found as reponse like this can be expected:
 
