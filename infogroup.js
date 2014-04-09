@@ -69,6 +69,29 @@ InfoGroup.prototype.postData = function(_form_data, callback) {
 
 }
 
+// get a submission
+InfoGroup.prototype.getSubmission = function(_form_data, callback) {
+
+  if (!_.isObject(_form_data)) {
+
+    return callback("Parameters are not correctly formatted");
+
+  }
+
+  var _params = {
+    method: "GET",
+    url: "http://"+(this._test_mode === true?"sandbox.":"")+"bulkupdate.infogroup.com/api/1/submissions",
+    body: _form_data
+  }
+
+  this.doRequest(_params, function(err, data) {
+
+    return callback(err, data);
+
+  })
+
+}
+
 // make the http request
 InfoGroup.prototype.doRequest = function(_params, callback) {
 
