@@ -147,16 +147,20 @@ InfoGroup also provide a list of processing errors when returning submissions, t
   `warnings` - minor errors not causing the submission to fail
   
   ```json
-  "processing_messages": {
-    "warnings": {"name": "standardized to Wendy's"}
+  {
+    "processing_messages": {
+      "warnings": {"name": "standardized to Wendy's"}
+    }
   }
   ```
 
   `errors` - major errors causing the submission to fail
 
   ```json
-  "processing_messages": {
-    "errors": {"state": "is not valid"] }
+  {
+    "processing_messages": {
+      "errors": {"state": "is not valid"] }
+    }
   }
   ```
 
