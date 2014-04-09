@@ -145,27 +145,31 @@ InfoGroup also provide a list of processing errors when returning submissions, t
 ---
 
   `warnings` - minor errors not causing the submission to fail
+  
+  ```json
   "processing_messages": {
     "warnings": {"name": "standardized to Wendy's"}
   }
+  ```
 
   `errors` - major errors causing the submission to fail
+
+  ```json
   "processing_messages": {
     "errors": {"state": "is not valid"] }
   }
+  ```
 
 ---
 
 If any submission cannot be found as reponse like this can be expected:
 
----
-
+```json
   {
     "result": "error",
     "error": "could not find submission with id: 34c66bc0-d385-11e2-946f-476095fff0ab"
   }
-
----
+```
 
 Basic example:
 
