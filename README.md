@@ -135,7 +135,9 @@ Returned statuses are as follows:
 ---
 
   `complete` - one or more submissions to get from the database
+  
   `processing` - this submission is being processed
+  
   `failed` - there was a problem with this submission
 
 ---
