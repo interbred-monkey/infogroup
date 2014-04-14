@@ -18,7 +18,8 @@ InfoGroup.prototype._username = null;
 InfoGroup.prototype._password = null;
 InfoGroup.prototype._access_token = null;
 InfoGroup.prototype._refresh_token = null;
-InfoGroup.prototype._token_url = "https://auth.qa.data-axle.infogroup.com/oauth/token?scope="
+InfoGroup.prototype._qa_token_url = "https://auth.qa.data-axle.infogroup.com/oauth/token?scope=";
+InfoGroup.prototype._token_url = "https://auth.data-axle.infogroup.com/oauth/token?scope=";
 
 InfoGroup.prototype.getToken = function(callback) {
 
@@ -183,6 +184,12 @@ InfoGroup.prototype.setDebugMode = function(bool) {
 
 // turn on/off test mode
 InfoGroup.prototype.setTestMode = function(bool) {
+
+  if (Boolean(bool) === true) {
+
+    this._token_url = this._qa_token_url;
+
+  }
 
   return this._test_mode = Boolean(bool);
   
